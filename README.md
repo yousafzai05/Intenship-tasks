@@ -40,7 +40,7 @@ This repository contains solutions to beginner-level HTML and CSS practice probl
 
 ## 🌐 Live Demo
 
-You can run the `task2.html` file locally in any browser, or deploy via GitHub Pages (optional step).
+You can run the `http://127.0.0.1:5500/Task2.html` file locally in any browser, or deploy via GitHub Pages (optional step).
 
 
 ## 📌 GitHub Repository
