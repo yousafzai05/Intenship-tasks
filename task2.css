@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(211, 254, 214);  /*overall body background color*/
+}
+/* question 1 css */
+#box{
+    background-color: blue; /*background color*/
+    color: rgb(253, 253, 247); /*text color*/
+    border-radius: 10px; /*Rounded boarders*/
+    padding: 25px; /*Box sixe*/
+}
+/* question 2 css */
+.heading{
+    color: red; /*text color*/
+}
+
+/* question 3 css */
