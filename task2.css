@@ -1,3 +1,30 @@
+.body{
+    background-color: rgb(171, 210, 244);
+   font-family: 'Times New Roman', Times, serif; /* set 2 q2 */
+}
+/* question 1 css */
+#box{
+    background-color: blue; /*background color*/
+    color: rgb(253, 253, 247); /*text color*/
+    border-radius: 10px; /*Rounded boarders*/
+    padding: 25px; /*Box sixe*/
+}
+/* question 2 css */
+.heading{
+    color: red; /*text color*/
+}
+
+/* question 3 (A) css */
+.green-button{
+    background-color: rgb(128, 34, 0);
+}
+
+/* set 2 Q1 */
+#h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
 body{
     background-color: rgb(211, 254, 214);  /*overall body background color*/
 }
@@ -19,8 +46,20 @@ body{
 }
 
 /* set 2 Q1 */
-#h1{
+#h1-heading{
     text-align: center;
     text-transform: uppercase;
 }
-
+#outer{
+    font-size: 30px;
+    color: rgba(90, 0, 244, 0.728);
+    border: 1px solid;
+    padding: 10px;
+}
+#inner{
+    font-size: 25px;
+    color: brown;
+    border: 3px;
+    padding: 30px;
+    margin-top: 20px;
+}
