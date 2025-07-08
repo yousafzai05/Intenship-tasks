@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brilliant Pakistan</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #F8F5F0;
+    color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    color: white;
+}
+
+.logo{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.logo span{
+    color: orange;
+}
+
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+nav a.active{
+    color: orange;
+    border-bottom: 2px solid orange ;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.main-text{
+    max-width: 50%;
+}
+.main-text h1{
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.main-text h1 span{
+    color: orange;
+}
+
+.main-text p{
+    margin: 20px 0;
+    color: grey;
+    line-height: 1.6;
+}
+
+.button{
+    background-color: orange;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.review {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+}
+
+.review img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.review span{
+    font-size: 14px;
+    color: gray;
+}
+
+.main-img{
+    position: relative;
+}
+
+.main-img img{
+    width: 600px;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #c2bfba;
+    color: rgb(156, 156, 171);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Brilliant <span>Pakistan</span></div>
+        <nav>
+      <a href="#" class="active">Home</a>
+      <a href="#">Talent</a>
+      <a href="#">Nominate</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>      
+       </nav>
+    </header>
+
+    <section class="main">
+        <div class="main-text">
+            <h1>Showing <br> the Brilliance <br> <span>of Nation</span></h1>
+      <p>Welcome to Showcasing the Brilliance of Pakistan — a digital platform dedicated to celebrating the untold stories,
+        talents, innovations, and cultural richness of Pakistan. From tech innovators and young entrepreneurs to artists,
+        educators, and change-makers, we spotlight individuals and initiatives shaping a brighter future for the nation.
+      </p>
+      <button class="button">Explore</button>
+      <div class="review">
+        <img src="profile-img1.jpeg" alt="profile-img1">
+        <img src="profile-img3.jpeg" alt="profile-img3">
+        <img src="profile-img2.jpeg" alt="profile-img2">
+        <span>Customer Review<br><strong>⭐ 4.8</strong> (6.7k reviews)</span>
+      </div>
+       </div>
+      <div class="main-img">
+        <img src="brilliantpakistan-img.jpg" alt="Girl image">
+      </div>
+    </section>
+   <footer>
+       <p>&copy; A Web Page.</p>
+       <p>By Marjan Yousafzai!</p>
+  </footer>
+
+</body>
+</html>
