@@ -136,22 +136,6 @@ Added media query to ensure:
 
 ---
 
-## 💡 How to View
-
-1. Clone or download the repository.  
-2. Open the `Week2-taskB-webpage.html` file in any web browser.  
-3. To deploy it online, you can use:  
-   - GitHub Pages  
-
----
-
-## 🖼️ Preview
-
-![Brilliant Pakistan Screenshot](webpagescreenshot.jpg)  
-<sub>*(Replace with your screenshot if needed)*</sub>
-
----
-
 ## 👩‍💻 Developed By
 
 **Marjan Yousafzai**  
