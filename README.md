@@ -68,3 +68,81 @@ When you click a button (Red, Yellow, or Green), only that light becomes bright 
 
 Open the files in your browser:
 http://127.0.0.1:5500/task3a-traffic-signal.html
+
+# 🌟 Brilliant Pakistan – Web Page
+
+This project is part of my HTML & CSS practice tasks. It represents a simple but effective homepage layout for a fictional platform called **Brilliant Pakistan**, designed to showcase the brilliance, talent, and innovation across Pakistan.
+
+---
+
+## 🧠 Skills Practiced
+
+- HTML5 Semantic Tags (`<header>`, `<section>`, `<footer>`)
+- CSS Flexbox Layouts
+- Responsive Design with Media Queries
+- Custom Buttons & Review Sections
+- Typography, Alignment & Spacing
+- Image Styling & Avatar Display
+- Navigation Menu with Active Link Styling
+
+---
+
+## 🎯 Features Implemented
+
+### ✅ Header Section
+- Includes a **logo** styled with highlighted span color.
+- Navigation menu (`<nav>`) with links like *Home, Talent, Nominate, About, Contact*.
+- Active link is styled with orange border and color.
+
+### ✅ Main Section
+- Two-column layout using Flexbox.
+- Left side includes:
+  - Headline with span highlight
+  - Descriptive paragraph
+  - “Explore” call-to-action button
+  - A **review block** with round profile images and star rating.
+- Right side contains:
+  - A main hero image (`brilliantpakistan-img.jpg`) with rounded corners.
+
+### ✅ Review Section
+- Displays customer avatars using circular images.
+- Shows rating summary (e.g., ⭐ 4.8 / 6.7k reviews).
+- Neatly aligned with flexbox.
+
+### ✅ Footer Section
+- Cleanly styled footer using soft background and text color.
+- Includes:
+  - Copyright
+  - Creator credit: *By Marjan Yousafzai!*
+- Positioned at the bottom with spacing.
+
+---
+
+## 📱 Responsive Enhancements
+
+Added media query to ensure:
+- Layout shifts to vertical stack on small screens (mobile-friendly).
+- Adjusted image and text sizes.
+- Navigation becomes wrap-friendly.
+
+---
+
+## 💡 How to View
+
+1. Clone or download the repository.
+2. Open the `Week2-taskB-webpage.html` file in any web browser.
+3. To deploy it online, you can use:
+   - GitHub Pages
+
+
+## 🖼️ Preview
+
+![Brilliant Pakistan Screenshot](webpagescreenshot.jpg)  
+<sub>*(Replace with your screenshot if needed)*</sub>
+
+
+## 👩‍💻 Developed By
+
+**Marjan Yousafzai**  
+BSCS Student | Front-End Learner  
+Pak Austria Fachhochschule Institute of Applied Sciences & Technology
