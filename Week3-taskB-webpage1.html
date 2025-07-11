@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials & Services</title>
+    <style>
+        *{
+            scroll-behavior: auto;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: large;
+            background: rgb(236, 230, 230);
+            color: rgba(59, 53, 228, 0.97);
+        }
+
+        header{
+            background: rgb(236, 230, 230);
+            color: rgba(25, 20, 159, 0.806);
+            padding: 100px;
+            font-weight: 100;
+            font-family: Georgia, 'Times New Roman', Times, serif;            /* display: flex; */
+            text-align: center;
+            align-items: center;
+            margin-bottom: -90px;
+        }
+    section.test{
+            font-size: large;
+            padding: 50px;
+            text-align: center;           
+        }
+
+        .test h2 span{
+           color: #e63b82e6;
+           font-size: larger;
+        }
+
+        .test h2{
+            font-size: 36px;
+            margin-bottom: 30px;
+            font: bold;
+        }
+
+        .test p {
+            max-width: 700px;
+            margin: 0 auto 30px;
+            color: rgb(8, 0, 0);
+        }
+
+        .test-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        .test-text {
+            max-width: 600px;
+            text-align: left;
+        }
+    
+        .test-card {
+            position: relative;
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            background: rgb(244, 240, 240);
+            border-radius: 15px;
+            overflow: hidden;
+            padding: 3px;
+            box-shadow: 0 0 10px black;
+        }
+
+        .image-box {
+            position: relative;
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(95, 4, 118, 0.769)
+        }
+
+        .image-box img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 12px;
+        }
+
+        .arrow {
+            position: absolute;
+            top: 90%;
+            transform: translateY(-50%);
+            background: rgba(127, 5, 138, 0.687);
+            border: none;
+            font-size: 24px;
+            width: 35px;
+            height: 36px;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 35%;
+            box-shadow: 0 0 5px rgb(22, 0, 28);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .arrow.left {
+            left: 5px;
+        }
+
+        .arrow.right {
+            right: 5px;
+        }
+
+        .test-box {
+            background: rgba(178, 4, 227, 0.135);
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: +40px;
+            text-align: left;
+            box-shadow: 0 0 10px black;
+            text-align: left;
+            width: 90%;
+            z-index: 2;
+            position: relative;
+        }
+        
+        .test-box p {
+            color: #444;
+            margin-bottom: 10px;
+         }
+
+        .test-box h4 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+            color: #000;
+        }
+
+        .test-box .role {
+            font-size: 14px;
+            color: gray;
+        }
+
+        .test-box .stars {
+            font-size: 20px;
+            margin: 7px 0;
+        }
+
+        .test-box h5 {
+            font-size: 12px;
+            color: #999;
+        }
+
+        .services {
+            padding: 50px;
+            background: rgb(236, 230, 230);
+            text-align: center;
+        }        
+
+        .services h2 span {
+           color: #e63b82e6;
+           font-size: larger;
+           font-weight: 800;
+        }
+
+        .services h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .services p {
+            color: rgb(10, 10, 10);
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+
+        .ser-box {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .ser-card .icon {
+            width: 50px;
+            height: 50px;
+            margin: 0 auto 0px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .ser-card-1 {
+            background: rgb(244, 240, 240);
+            padding: 25px;
+            border-radius: 16px;
+            width: 250px;
+            box-shadow: 0 0 20px rgb(10, 86, 52);
+            text-align: center;
+        }
+
+        .ser-card-1 h3 {
+            color: #157839;
+            font-size: larger;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+
+         .ser-card-1 .shopify img {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 100px;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #045b24;
+            margin-bottom: 20px;
+        }
+        
+        .ser-card-1 button {
+           margin-top: 15px;
+           padding: 10px 20px;
+           background: #0e7938fe;
+           color: rgb(4, 239, 39);
+           font-family: Arial, Helvetica, sans-serif;
+           font-weight: 200;
+           border: none;
+           border-radius: 15px;
+           cursor: pointer;
+           box-shadow: 0 0 10px rgb(42, 119, 6);
+
+        }
+
+        .ser-card-2 {
+            background: rgb(244, 240, 240);
+            padding: 25px;
+            border-radius: 20px;
+            width: 250px;
+            box-shadow: 0 0 20px rgb(238, 102, 11);
+            text-align: center;
+        }
+
+        .ser-card-2 h3 {
+            color: rgb(228, 96, 15);
+            font-size: larger;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+
+        .ser-card-2 .marketing img{
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 100px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: orange;
+            margin-bottom: 20px;
+
+        }
+
+        .ser-card-2 button {
+           margin-top: 15px;
+           padding: 10px 20px;
+           background: rgb(209, 85, 3);
+           color: rgb(255, 195, 139);
+           font-family: Arial, Helvetica, sans-serif;
+           font-weight: 200;
+           border: 2px;
+           border-radius: 15px;
+           cursor: pointer;
+           box-shadow: 0 0 10px rgb(249, 141, 0);
+        }
+
+        footer{
+            background-color: #0381f8;
+            color: aliceblue;
+            height: auto;
+            width: 100%;
+            font-size: xx-large;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0 auto 100px;
+            border-radius: 5%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+         <hr>
+<h2>Company: Technik Nest Pvt LTD <br> Intern: Marjan Yousafzai 
+    <br>Intern ID: TN/IN01/WD/024 <br>Week: 03 <br>Task No: 02 <br>Date: 10/07/2025
+</h2><hr>
+    </header>
+    <!-- page 1 Case Studies And Testimonials-->
+    <section class="test">
+        <h2>Case Studies<span> And Testimonials</span></h2>
+         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+       <div class="test-content">
+        <div class="test-text">
+            <h3>What they say?</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          </div>
+    <div class="test-card">
+          <div class="image-box">
+    <img src="profile-img1.jpeg" alt="Customer">
+    <button class="arrow left">‹</button>
+    <button class="arrow right">›</button>
+  </div>
+        <div class="test-box">
+        <p>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy.”</p>
+        <h4>Sophia Isabella</h4>
+    <span class="role">Customer</span>
+        <div class="stars">&#11088⭐⭐⭐⭐ </div> <!--&#11088 is the shortcut key for these stars-->
+       <h5>12 reviews at yelp</h5>
+        </div>
+           </div>
+            </div>  
+    </section>
+
+    <!-- page 2 Our Services-->
+    <section class="services">
+        <h2>Our<span> Services</span></h2>
+    
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+  <div class="ser-box">
+    <div class="ser-card-1">
+        <div class="icon shopify">
+            <img src="shopify-icon.png" alt="">
+        </div>
+        <h3>Shopify Development</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        <button>Read More...</button>
+   
+    </div>
+    <div class="ser-card-2">
+        <div class="icon marketing">
+            <img src="dm-icon.png" alt="Digital Marketing">
+        </div>
+        <h3>Digital Marketing</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        <button>Read More...</button>
+    </div>
+  </div>
+</section>
+<footer>
+    <p>Developed By Marjan Yousafzai</p>
+</footer>
+</body>
+</html>
