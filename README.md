@@ -3,8 +3,14 @@
 This repository contains beginner-friendly HTML & CSS practice tasks completed as part of the internship at **Technik Nest Pvt LTD** by **Marjan Yousafzai**. These projects focus on layout, styling, interactivity, and documentation.
 
 ---
+### ✅ Tasks Completed
+---
 
-## 🧩 Week 1 Task – HTML & CSS Practice Sets
+### 👉🏻 Week 1
+
+---
+
+## 🧩 Task – HTML & CSS Practice Sets
 
 ### 📁 Files Included
 
@@ -13,7 +19,6 @@ This repository contains beginner-friendly HTML & CSS practice tasks completed a
 | `task2setsquestions.html` | Main HTML file containing all practice tasks     |
 | `task2setsquestions.css`  | External CSS stylesheet linked with the HTML file |
 
-### ✅ Tasks Completed
 
 #### Practice Set 1:
 1. Created a `div` with `id="box"` and set its background color to blue.  
@@ -37,7 +42,11 @@ This repository contains beginner-friendly HTML & CSS practice tasks completed a
 
 ---
 
-## 🚦 Week 2 Task A – Traffic Light Simulation (HTML, CSS, JS)
+### 👉🏻 Week 2
+
+---
+
+## 🚦Task A – Traffic Light Simulation (HTML, CSS, JS)
 
 A simple interactive traffic light built using HTML, CSS, and JavaScript.
 
@@ -74,7 +83,7 @@ http://127.0.0.1:5500/Week2-taskA-traffic-signal.html
 
 ---
 
-# 🌟 Week 2 Task B - Brilliant Pakistan – Web Page
+# 🌟 Task B - Brilliant Pakistan – Web Page
 
 This project is part of my HTML & CSS practice tasks. It represents a simple but effective homepage layout for a fictional platform called **Brilliant Pakistan**, designed to showcase the brilliance, talent, and innovation across Pakistan.
 
@@ -136,6 +145,103 @@ Added media query to ensure:
 
 Open the files in your browser:  
 http://127.0.0.1:5500/Week2-taskB-webpage.html
+
+---
+
+### 👉🏻 Week 3
+
+---
+
+## 🧩 Task 1 
+# Task: Update Your LinkedIn Profile And Share Post
+(Link in Chat Channel On Discord)
+
+✅ Updated Link: Linhttps://www.linkedin.com/posts/marjan-yousafzai-753710370_im-happy-to-share-that-im-starting-a-new-activity-7348227920097628161-4i2a?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFvxKS8BSce2Mt9biloI89jiGK4qydxrvrA
+
+[LinkedIn Profile](www.linkedin.com/in/marjan-yousafzai-753710370 )
+
+---
+
+## 🧩 Task 2
+
+---
+
+# 🌐 Case Studies and Testimonials & Our Services – Web Page Project
+
+This project contains two responsive web sections created using HTML and CSS:
+
+1. **Case Studies and Testimonials**
+2. **Our Services**
+
+These sections are commonly used in business websites to showcase customer feedback and highlight the services provided.
+
+---
+
+## 📁 Files Included
+
+| File Name                   | Description                                                               |
+| --------------------------- | ------------------------------------------------------------------------- |
+| `Week3-taskB-webpage1.html` | HTML structure for both sections                                          |
+| `style.css`                 | Internal CSS for layout and styling                                       |
+| `images/`                   | Folder containing: `profile-img1.jpeg`, `shopify-icon.png`, `dm-icon.png` |
+
+---
+
+## ✨ Features
+
+### ✅ Case Studies & Testimonials
+
+* Two-column layout using Flexbox
+* Customer image with overlapping review card
+* Arrows (static) for future slider functionality
+* 5-star rating and customer review text
+
+### ✅ Our Services
+
+* Two service cards with:
+
+  * Round icons
+  * Service titles
+  * Descriptions
+  * “Read More” buttons
+
+---
+
+## 🎨 Styling Details
+
+* Responsive layout using Flexbox
+* Custom colors: soft blue background and orange stars
+* Font family: Georgia, Times New Roman
+
+---
+
+## 📱 Responsive Design
+
+The page layout adjusts automatically for mobile screens:
+
+* Cards stack vertically
+* Text and images scale properly
+
+---
+
+## 🚀 How to Use
+
+1. Clone this repo or download the files
+2. Open `Week3-taskB-webpage1.html` in your browser
+3. Customize images, text, or services as needed
+
+---
+
+## 🔗 GitHub Repository
+
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/yousafzai05/Intenship-tasks)
+
+---
+
+## ✅ Conclusion
+
+This project helped build and style two modern web page sections using HTML and CSS.
+It also provided experience in creating reusable layouts, managing background images, and writing clean, responsive code.
 
 ---
 
