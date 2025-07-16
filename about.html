@@ -1,69 +1,144 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About</title>
+  <title>About page</title>
   <style>
-.header-h1 {
-  font-size: 1.6rem;
-  margin: 0;
-  display: inline-flex;
-  align-items: center;
-  gap: 2em;
-  width: auto;
-  height: 100px;
-}
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-.courses {
-  color: black;
-  text-decoration: none;
-  font-weight: 600;
-}
+    html{
+      scroll-behavior: smooth;
+    }
 
-.button {
-  color: white;
-  font-size: 30px;
-  font: bold;
-  padding: 1px 2px;
-  background-color: rgb(232, 62, 136);
-  width: 150px;
-  height: 50px;
-  border: 2px solid;
-  border-color: rgb(247, 5, 130);
-  border-radius: 13px;
-  box-shadow: 0 0 35px rgb(255, 0, 111);
-}
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background: rgb(250, 250, 250);
+      color: black;
+      line-height: 1.6;
+      padding: 20px;
+    }
 
+    .nav-bar{
+      font-size: 1.7rem;
+      color: black;
+      font-weight: 600;
+      display: flex;
+      gap: 1.5rem;
+      margin: 40px 0;
+      align-items: center;
+    }
 
- </style>
+    .button{
+      color: white;
+      font-size: 30px;
+      font: bold;
+      background-color: rgb(232, 62, 136);
+      width: 150px;
+      height: 50px;
+      border: 2px solid;
+      border-color: rgb(247, 5, 130);
+      border-radius: 13px;
+      box-shadow: 0 0 35px rgb(255, 0, 111);
+    }
+
+    #nav-a{
+      font-size: 25px;
+      margin-left: auto;
+      color: black;
+      font-weight: 200;
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+    }    
+    
+    #nav-a a{
+      text-decoration: none;
+      color: black;
+      display: flex;
+      align-items: center;     
+    }
+
+    #nav-a a:hover {
+      color: rgb(232, 62, 136);
+    }
+
+    .numbers {
+      color: rgb(232, 62, 136);
+      font-size: 20px;
+    }
+
+    .main{
+      max-width: 1000px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 40px;
+      align-items: start;
+    }
+
+    .main-txt h2{
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: rgb(232, 62, 136);
+    }
+
+    .main-txt p{
+      margin-bottom: 1rem;
+    }
+
+    .main-headings{
+      margin-top: 20px;
+    }
+
+    .main-headings h3{
+      font-size: 1.5rem;
+      margin-bottom: 8px;
+      color: rgb(232, 62, 136);
+    }
+
+    .main-headings ul{
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    .main-headings li{
+      margin-bottom: 6px;
+      font-size: 1rem;
+    }
+
+    .video{
+      height: 80px;
+      width: 80px;
+      margin-left: 40%;
+    }
+
+  </style>
 </head>
 <body>
-<header class="header">
-  <h1 class="header-h1">
- <button class="button"> Courses</button>
-  <span class="star" aria-label="featured">*</span>
-  <span class="text-fr">fr</span>
-</h1>
-
-  <nav class="nav">
-    <ul>
-      <li><a href="#about"><span>Q1. </span>About</a></li>
-      <li><a href="#contact"><span>Q2. </span>Contact</a></li>
-      <li><a href="#contact"><span>Q3. </span>Contact</a></li>
-      <li><a href="#blog"><span>Q4. </span>Blog</a></li>
-    </ul>
+  <nav class="nav-bar">
+    <button class="button">Courses</button> 🕸️&nbsp;&nbsp;Fr
+    <div id="nav-a">
+      <a href="#"><span class="numbers">Q1.</span>&nbsp;About</a>
+      <a href="#"><span class="numbers">Q2.</span>&nbsp;Work</a>
+      <a href="#"><span class="numbers">Q3.</span>&nbsp;Contact</a>
+      <a href="#"><span class="numbers">Q4.</span>&nbsp;Blog</a>
+    </div>
   </nav>
-</header>
-  
-  <div class="container">
-    <div class="text-content">
+
+   <div class="main">
+    <div class="main-txt">
       <h2>01. About Me</h2>
       <p>Hello there! I'm <a href="#">Ramzi, a front‑end web developer</a> based near Montreal. I wake up in the morning, grab a cup of coffee, open my laptop and build things that live on the web.</p>
       <p>People who know me say I'm obsessed – that's fair – I'm very driven and love learning new things.</p>
-
-     <div class="section">
-       <h3>Technologies:</h3>
+      <div class="video">
+        <video src="vid.mp4" loop autoplay muted></video>
+      </div>
+      <div class="main-headings">
+        <h3>Technologies:</h3>
         <ul>
           <li>JavaScript (ES6+)</li>
           <li>HTML</li>
@@ -71,10 +146,11 @@
           <li>React JS</li>
           <li>Next JS</li>
           <li>FaunaDB</li>
-        </ul>
-      </div>
-      <div class="section">
-       <h3>Tools:</h3>
+        </ul>        
+      </div> 
+
+      <div class="main-headings">
+        <h3>Tools:</h3>
         <ul>
           <li>Serverless Functions</li>
           <li>CSS Modules</li>
@@ -82,12 +158,9 @@
           <li>Vercel</li>
           <li>Netlify</li>
           <li>Auth0</li>
-        </ul>
+        </ul>        
       </div>
-     </div>
     </div>
   </div>
-  <div class="box"></div>
-  <p>to be continued</p>
 </body>
 </html>
