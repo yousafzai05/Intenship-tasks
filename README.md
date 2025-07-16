@@ -245,6 +245,40 @@ It also provided experience in creating reusable layouts, managing background im
 
 ---
 
+### 👉🏻 Week 4
+
+---
+
+## 🌟 Task – HTML & CSS About‑Me Page 
+
+A simple, responsive single-page “About Me” page built with HTML, CSS, and JavaScript.
+
+---
+
+## 📁 Files Included
+
+| File Name                   | Description                                                               |
+| --------------------------- | ------------------------------------------------------------------------- |
+| `about.html` | HTML structure                                          
+| `style.css`                 | Internal CSS for layout and styling                
+| `images/`                   | Folder containing: `vid.mp4`
+
+
+---
+
+## ✨ Features
+- Smooth scroll navigation (About, Work, Contact, Blog)
+- Autoplay, looping, muted intro video
+- Lists of technologies and tools used
+
+---
+
+## ⚙️ Tech Stack
+- HTML5 & CSS3 (Grid, Flexbox)
+- JavaScript (ES6+)
+
+---
+
 ## 👩‍💻 Developed By
 
 **Marjan Yousafzai**  
